@@ -1,6 +1,0 @@
-Menu2:
-
-Apples
-Bananas
-Grapes
-Strawberries
