@@ -1,5 +1,6 @@
 
 import os
+import sys
 
 def check_reboot():
     """Return True if the computer has a pending reboot."""
@@ -8,6 +9,7 @@ def check_reboot():
 def main():
     if check_reboot():
         print("Atención : Reinicio pendiente.")
+        sys.exist(1)
     else:
         print("No hay reinicios pendientes.")
 
