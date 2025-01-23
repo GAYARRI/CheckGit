@@ -9,9 +9,11 @@ def check_reboot():
 def main():
     if check_reboot():
         print("Atención : Reinicio pendiente.")
-        sys.exist(1)
+        sys.exist(1)    
     else:
-        print("No hay reinicios pendientes.")
+        print("Todo esta correcto.")
+        sys.exit(0)
+        
 
 if __name__ == "__main__":
     main()
