@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 import os
 
 def check_reboot():
@@ -7,13 +7,13 @@ def check_reboot():
 
 def main():
     if check_reboot():
-        print("Reboot is required.")
+        print("Reinicio pendiente.")
     else:
-        print("No reboot is required.")
+        print("No hay reinicios pendientes.")
 
 if __name__ == "__main__":
     main()
-)
+
 
 
     
