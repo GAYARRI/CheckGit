@@ -7,7 +7,7 @@ def check_reboot():
 
 def main():
     if check_reboot():
-        print("Reinicio pendiente.")
+        print("Atención : Reinicio pendiente.")
     else:
         print("No hay reinicios pendientes.")
 
